@@ -1,0 +1,8 @@
+{
+  "name": "Sandvika Cricket Klubb",
+  "description": "A modern, bilingual web application for Sandvika Cricket Klubb featuring real-time match updates, membership management, and a high-performance design system.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

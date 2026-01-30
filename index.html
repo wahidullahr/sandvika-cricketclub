@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandvika Cricket Klubb | Play-Cricket</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#0A3E62',
+              secondary: '#54ABED',
+              accent: '#facc15',
+              surface: '#F1F5F9',
+              border: '#CBD5E1',
+              textPrimary: '#0F172A',
+            },
+            fontFamily: {
+              body: ['Roboto', 'sans-serif'],
+              heading: ['Roboto Condensed', 'sans-serif'],
+            },
+            borderRadius: {
+              'custom': '0px', // Sharp corners as requested
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #F8FAFC;
+        color: #0F172A;
+        font-size: 16px; /* Larger base font */
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Roboto Condensed', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+      }
+      .play-cricket-shadow {
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      .section-header {
+        border-bottom: 4px solid #0A3E62;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.75rem;
+      }
+      /* Custom scrollbar for that clean look */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #0A3E62;
+      }
+      /* Ensure components look "bigger" */
+      .btn-large {
+        padding: 1rem 2rem;
+        font-size: 1.125rem;
+        font-weight: 700;
+      }
+      .container-wide {
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.29.2",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
